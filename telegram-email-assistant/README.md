@@ -98,12 +98,6 @@ This automation is built using the n8n workflow automation platform.
 - Analytics and logging
 
 
-## Assets
-
-- Workflow screenshot available in `/assets`
-- Demo GIF showing real interaction
-
-
 ## Why This Project Matters
 
 This project demonstrates:
