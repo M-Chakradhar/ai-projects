@@ -3,7 +3,6 @@
 An AI-powered Telegram bot that allows users to send emails using natural language.  
 The bot understands user intent, composes emails, sends them via Gmail, and confirms delivery within the same Telegram conversation.
 
----
 
 ## Problem Statement
 
@@ -22,13 +21,12 @@ This project explores how conversational AI and automation can simplify email co
 
 All interactions happen inside a single Telegram chat.
 
----
-
-## Example Usage
 
 ## Demo
 
-![Telegram Email Assistant Demo](assets/demo.gif)
+
+![Telegram Email Assistant Demo](https://github.com/M-Chakradhar/ai-projects/blob/main/telegram-email-assistant/demo.gif?raw=true)
+
 
 
 
