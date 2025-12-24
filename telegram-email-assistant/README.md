@@ -27,17 +27,17 @@ All interactions happen inside a single Telegram chat.
   <img 
     src="https://github.com/M-Chakradhar/ai-projects/blob/main/telegram-email-assistant/demo.gif?raw=true"
     alt="Telegram Email Assistant Demo"
-    width="500"
+    width="400"
   />
 </p>
 
 ## Email Delivery Confirmation
 
-<p align="center">
+<p align="left">
   <img 
     src="https://github.com/M-Chakradhar/ai-projects/blob/main/telegram-email-assistant/Gmail_Confirmation.jpg?raw=true"
     alt="Email received in Gmail sent via Telegram bot"
-    width="500"
+    width="300"
   />
 </p>
 
@@ -55,7 +55,7 @@ This automation is built using the n8n workflow automation platform.
 6. Gmail tool sends the email
 7. Confirmation message is sent back to Telegram
 
-<p align="center">
+<p align="left">
   <img 
     src="https://github.com/M-Chakradhar/ai-projects/blob/main/telegram-email-assistant/Workflow.png?raw=true"
     alt="n8n workflow diagram for Telegram Email Assistant"
