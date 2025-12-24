@@ -9,7 +9,6 @@ The bot understands user intent, composes emails, sends them via Gmail, and conf
 Sending emails from mobile devices can be slow and inconvenient.  
 This project explores how conversational AI and automation can simplify email composition using a chat-based interface.
 
----
 
 ## What This Bot Does
 
@@ -24,13 +23,24 @@ All interactions happen inside a single Telegram chat.
 
 ## Demo
 
+<p align="left">
+  <img 
+    src="https://github.com/M-Chakradhar/ai-projects/blob/main/telegram-email-assistant/demo.gif?raw=true"
+    alt="Telegram Email Assistant Demo"
+    width="500"
+  />
+</p>
 
-![Telegram Email Assistant Demo](https://github.com/M-Chakradhar/ai-projects/blob/main/telegram-email-assistant/demo.gif?raw=true)
+## Email Delivery Confirmation
 
+<p align="center">
+  <img 
+    src="https://github.com/M-Chakradhar/ai-projects/blob/main/telegram-email-assistant/Gmail_Confirmation.jpg?raw=true"
+    alt="Email received in Gmail sent via Telegram bot"
+    width="500"
+  />
+</p>
 
-
-
----
 
 ## Architecture Overview
 
@@ -45,7 +55,14 @@ This automation is built using the n8n workflow automation platform.
 6. Gmail tool sends the email
 7. Confirmation message is sent back to Telegram
 
----
+<p align="center">
+  <img 
+    src="https://github.com/M-Chakradhar/ai-projects/blob/main/telegram-email-assistant/Workflow.png?raw=true"
+    alt="n8n workflow diagram for Telegram Email Assistant"
+    width="650"
+  />
+</p>
+
 
 ## Tools & Technologies Used
 
@@ -55,7 +72,6 @@ This automation is built using the n8n workflow automation platform.
 - **n8n Simple Memory** – Conversation context handling
 - **Gmail API** – Email sending
 
----
 
 ## Key Design Choices
 
@@ -64,7 +80,6 @@ This automation is built using the n8n workflow automation platform.
 - Used **tool calling** to bridge AI reasoning with real actions
 - Kept the workflow **simple and modular**
 
----
 
 ## Limitations
 
@@ -74,8 +89,6 @@ This automation is built using the n8n workflow automation platform.
 - Optimized for English language input
 - Depends on third-party API limits
 
----
-
 ## Future Enhancements
 
 - Email drafts without sending
@@ -84,14 +97,12 @@ This automation is built using the n8n workflow automation platform.
 - Multi-account Gmail support
 - Analytics and logging
 
----
 
 ## Assets
 
 - Workflow screenshot available in `/assets`
 - Demo GIF showing real interaction
 
----
 
 ## Why This Project Matters
 
