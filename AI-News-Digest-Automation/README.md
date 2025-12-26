@@ -4,8 +4,6 @@ An automated workflow that fetches the most relevant **AI-related news from the 
 
 Built using **n8n**, **Perplexity Sonar Pro**, **Google Gemini**, and **Gmail**, this project removes the need to manually track daily AI news.
 
----
-
 ## ✨ Features
 
 - ⏰ Scheduled daily execution
@@ -15,7 +13,6 @@ Built using **n8n**, **Perplexity Sonar Pro**, **Google Gemini**, and **Gmail**,
 - 🧾 Concise summaries (≤ 50 words per article)
 - 🔁 Fully automated end-to-end workflow
 
----
 
 ## 🧠 Architecture Overview
 
@@ -31,7 +28,6 @@ This project uses **two AI agents**, each with a clearly defined responsibility:
 - Generates a neutral, factual summary (max 50 words)
 - Formats output specifically for email delivery
 
----
 
 ## 🔄 Workflow Overview (n8n)
 
@@ -49,37 +45,58 @@ The automation pipeline consists of the following steps:
 4. **Gmail**
    - Sends the formatted AI news digest to the configured email address
 
----
 
 ## 🧩 n8n Workflow
 
-![n8n Workflow]("https://github.com/M-Chakradhar/ai-projects/blob/main/AI-News-Digest-Automation/AI_News_Digest_Automation_Wokflow.png?raw=true")
+<p align="left">
+  <img
+    src="https://github.com/M-Chakradhar/ai-projects/blob/main/AI-News-Digest-Automation/AI_News_Digest_Automation_Wokflow.png?raw=true"
+    alt="n8n Workflow"
+    width="600"
+  />
+</p>
 
 > The workflow shows the schedule trigger, retrieval agent, formatting agent, memory node, and Gmail integration.
 
----
 
 ## 📧 Email Output Example
 
-![Email & Workflow]("https://github.com/M-Chakradhar/ai-projects/blob/main/AI-News-Digest-Automation/Email_Received_Through_Automation.png?raw=true")
+<p align="left">
+  <img
+    src="https://github.com/M-Chakradhar/ai-projects/blob/main/AI-News-Digest-Automation/Email_Received_Through_Automation.png?raw=true"
+    alt="Email & Workflow"
+    width="600"
+  />
+</p>
 
-![Email Output]("https://github.com/M-Chakradhar/ai-projects/blob/main/AI-News-Digest-Automation/Gmail_Received_Through_Automation.png?raw=true")
+<p align="left">
+  <img
+    src="https://github.com/M-Chakradhar/ai-projects/blob/main/AI-News-Digest-Automation/Gmail_Received_Through_Automation.png?raw=true"
+    alt="Email Output"
+    width="600"
+  />
+</p>
 
 Each email contains:
 - Refined headline
 - 50-word summary
 - Source and publication date
-- “Read more” link
+- Read more link
 
----
 
 ## 🎥 Demo
 
 A GIF demonstrating the full workflow execution and email delivery is included below:
 
-![Workflow Execution Demo]("")
+<p align="left">
+  <img
+    src="https://github.com/M-Chakradhar/ai-projects/blob/main/AI-News-Digest-Automation/AI_News_Automation_Workflow_Demo.gif?raw=true"
+    alt="Workflow Execution Demo"
+    width=700"
+  />
+</p>
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -87,6 +104,4 @@ A GIF demonstrating the full workflow execution and email delivery is included b
 - **Perplexity Sonar Pro** – Real-time AI news retrieval
 - **Google Gemini** – Article summarization and formatting
 - **Gmail API** – Email delivery
-
-
 
